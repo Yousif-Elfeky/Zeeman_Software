@@ -12,16 +12,14 @@ This software simplifies the analysis of the Zeeman effect by automating the mea
 - Image input from file with preview
 - Advanced spectral line analysis:
   - Intelligent auto-ring detection with adaptive center point optimization
-  - Multi-point weighted evaluation algorithm for precise ring detection
-  - Detailed feedback on detection quality and adjustments
-- Interactive measurement management:
+- Interactive measurement:
   - View all measurements in a table
   - Delete and redo individual measurements
   - Real-time current and magnetic field display
 - Magnetic field calibration
 - Calculation of Bohr magneton and specific charge
 - Data visualization:
-  - Interactive plots
+  - Plots
   - Measurement tables
   - Results summary
 - Export options:
@@ -66,19 +64,3 @@ This software simplifies the analysis of the Zeeman effect by automating the mea
      - Save plots as PNG/PDF
      - Export measurements to CSV
      - Copy results to clipboard
-
-## Details
-
-The software uses:
-- PyQt6 for the graphical interface
-- OpenCV for image processing and circle detection
-- NumPy for numerical computations
-- Pandas for data management
-- Matplotlib for visualization
-
-## Advanced Features
-
-### Auto-Ring Detection
-
-The software includes an advanced auto-ring detection algorithm that can optimize the manually specified center point for more accurate measurements. See [AUTO_RING_DETECTOR.md](docs/AUTO_RING_DETECTOR.md) for a detailed explanation of the algorithm and implementation.
-
